@@ -10,9 +10,26 @@
       }
       .header {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px 10px 10px;
       }
-      .base {
+      /* .base {
         padding: 5px;
+      } */
+      .logo {
+        width: 210px;
+      }
+      .header-links a{
+        color: black;
+        padding: 5px 15px;
+        text-decoration: none;
+      }
+      .header-links a:hover{
+        background-color: gray;
+        color: white;    
+        border-radius: 15px;    
+        
       }
     </style>
   </head>
@@ -21,8 +38,8 @@
     <!-- header -->
     <!-- <h1>Game Store</h1> -->
     <div class="header">
-      <img src="assets/images/logo.jpg" alt="" srcset="" width="360">
-        <div>
+      <img src="assets/images/logo.jpg" alt="" srcset="" class="logo">
+        <div class="header-links"> 
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Shop</a>
