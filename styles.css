@@ -7,14 +7,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px 10px 10px;
-    background-color: black;
+    padding: 0 32px;
+    margin: 0 auto;
+    background-color: #1A1A1A;
   }
   /* .base {
     padding: 5px;
   } */
   .logo {
-    width: 210px;
+    width: 120px;
   }
   .header-links a{
     color: #FFD700;
@@ -24,7 +25,9 @@ body {
   }
   .header-links a:hover{
     background-color: #FFA500;
-    color: #000000;    
+    color: #1A1A1A;    
     border-radius: 15px;    
     
   }
+
+
