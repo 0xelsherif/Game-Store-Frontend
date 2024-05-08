@@ -1,11 +1,14 @@
 import React, { Children } from 'react'
 import Header from './components/Header'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-   <Header />
-   
+    <div className="bg-gray-900 min-h-screen">
+      <Header />
+      <Navbar />
+      
+    </div>
 
   )
 }
