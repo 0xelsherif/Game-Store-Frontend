@@ -5,7 +5,6 @@ function Header() {
     
     <header className="bg-dark">
         
-        {/* <div class="bg-gradient-to-r from-mtc-dark to-blue-700 hidden lg:block relative z-[9]"><div class="container px-4 sm:px-6 lg:px-4 mx-auto"><div class="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2"><div class="text-center md:text-left md:order-2 md:flex md:justify-end md:items-center"><div class="flex items-center space-x-3"></div></div><div class="flex items-center"><span class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md font-medium text-white transition-all text-xs"><div class="w-4"><i class="text-xl ri-shield-star-line"></i></div>100% SAFETY GUARANTEE</span><span class="inline-block border-r border-white/[.3] w-px h-5 mx-2"></span><span class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md font-medium text-white transition-all text-xs"><div class="w-4"><i class="text-xl ri-timer-flash-line"></i></div>24/7 LIVE SUPPORT</span><span class="inline-block border-r border-white/[.3] w-px h-5 mx-2"></span><span class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md font-medium text-white transition-all text-xs"><div class="w-4"><i class="text-xl ri-shield-flash-line"></i></div>INSTANT DELIVERY</span></div></div></div></div> */}
       <div className="container mx-auto px-4 py-8 flex items-center">
 
         {/* Logo */}
@@ -70,10 +69,8 @@ function Header() {
         </div>
       </div>
 
-      {/* <hr /> */}
-      
+      <hr />
     </header>
-    
   )
 }
 
